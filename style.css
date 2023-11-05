@@ -1,0 +1,1019 @@
+* {
+  margin: 0px;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+  height: 130px;
+  background-color: #00183b;
+}
+
+.main-top-header {
+  height: 33px;
+  background-color: #f3d03e;
+}
+
+.top-header-content {
+  display: flex;
+}
+
+.top-header-content p {
+  color: #000000;
+  font-size: 0.95rem;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.top-header1 {
+  width: 70%;
+  margin-left: 5rem;
+  padding-top: 8px;
+}
+
+.top-header2 {
+  margin-left: 3rem;
+  padding-top: 8px;
+}
+
+.bottom-header {
+  height: 97px;
+  background-color: #00183b;
+  display: flex;
+  align-items: center;
+}
+
+.navlogo {
+  height: 73px;
+  width: 159px;
+  padding-top: 10px;
+  padding-left: 3rem;
+}
+
+.logo {
+  height: 70px;
+  width: 159px;
+  background-image: url(prosolve-logo.svg);
+  background-size: cover;
+}
+
+.search-panel {
+  height: 97px;
+}
+#search-bar {
+  height: 32px;
+  width: 750px;
+  border-radius: 25px;
+  border: 0.5px solid #f3d03e;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 0.85rem;
+  color: #001835;
+}
+
+.column-right {
+  height: 95px;
+  width: 235px;
+  display: flex;
+}
+
+.wishlist {
+  color: white;
+  font-size: 1rem;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.wishlist i {
+  font-size: 1.5rem;
+  padding-left: 0px;
+}
+
+.cart-area {
+  height: 38px;
+  width: 120px;
+  color: #000000;
+  background-color: #f3d03e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+  margin-left: 35px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+#bag {
+  font: size 3rem;
+}
+
+.primary-navigation {
+  height: 40px;
+  color: #000000;
+  background-color: #d9d9d9;
+}
+
+.primary-navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+  list-style-type: none;
+  font-size: 0.95rem;
+}
+
+.navarea i {
+  padding-right: 20px;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  background-color: #001835;
+  color: #ffffff;
+}
+
+.delivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.offers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quick-ordering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img1 {
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  background-image: url(pallet.svg);
+  background-size: cover;
+}
+
+#img2 {
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  background-image: url(offers.svg);
+  background-size: cover;
+}
+
+#img3 {
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  background-image: url(newsletter.svg);
+  background-size: cover;
+}
+.b:hover {
+  color: #f3d03e;
+}
+
+/* main content  section statrting from here  */
+
+.image-slider {
+  height: 190px;
+  background-color: #f3d03e;
+  background-image: url(slide1.jpg);
+  background-size: cover;
+  animation: changeimage 15s  15s infinite;
+}
+
+@keyframes changeimage {
+  0% {
+    background-image: url(slide1.jpg);
+  }
+  25% {
+    background-image: url(slide2.jpg);
+  }
+  50% {
+    background-image: url(slide3.jpg);
+  }
+  100% {
+    background-image: url(slide1.jpg);
+  }
+}
+
+.who-we {
+  font-size: 1.5rem;
+  color: #001835;
+  margin-top: 20px;
+  margin-left: 94px;
+}
+.who-we p {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+/* gallery  */
+
+.container {
+  max-width: 1224px;
+  width: 85%;
+  margin: auto;
+  padding-top: 0;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 30px;
+}
+
+.photo img {
+  padding-top: 11px;
+}
+
+.categury {
+  margin-left: 94px;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  font-weight: 500;
+}
+
+/* PRODUCT DETAIL DESCRIPTION STARTING FROM HERE */
+.our-product {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 94px;
+  margin-right: 94px;
+  align-items: center;
+}
+
+/* DIV 1 STARTING */
+.div1 {
+  height: 200px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid #f3d03e;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.img1 {
+  max-height: 90%;
+  max-width: 95%;
+  float: right;
+}
+
+.text {
+  position: relative;
+  margin: auto;
+  font-size: 20px;
+  padding-left: 20px;
+  float: left;
+  font-weight: 500;
+}
+
+.twin-slot {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333333;
+  line-height: -1px;
+}
+
+.see-more a {
+  text-decoration: none;
+  color: #00183b;
+}
+
+.see-more {
+  padding-top: 50px;
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: #00183b;
+}
+
+/* DIV 1 END IS HERE  */
+
+/* DIV2 IS STATING FROM HERE   */
+.div2 {
+  height: 200px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid #f3d03e;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* DIV 2 END IS HERE  */
+
+/* DIV3 IS STATING FROM HERE   */
+.div3 {
+  height: 200px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid #f3d03e;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* DIV 3 END IS HERE  */
+
+/* DIV4  IS STATING FROM HERE   */
+
+.div4 {
+  height: 200px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid #f3d03e;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.img2 {
+  max-height: 80%;
+  max-width: 75%;
+  float: right;
+}
+
+/* DIV 4 END IS HERE  */
+
+/* DIV 5 IS STATING FROM HERE   */
+.div5 {
+  height: 200px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid #f3d03e;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+/* DIV 5 END IS HERE  */
+
+/* DIV6 IS STATING FROM HERE   */
+.div6 {
+  height: 200px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid #f3d03e;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+/* DIV 6 END IS HERE  */
+.if {
+  margin-left: 85px;
+  font-size: 24px;
+  color: #00183b;
+  font-weight: 400;
+}
+
+.industry-favourite {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 64px;
+  margin-left: 64px;
+}
+
+.ratchet-strap img title {
+  color: #00183b;
+}
+
+.ratchet-strap img {
+  height: 100%;
+  width: 100%;
+}
+
+.ratchet-strap {
+  height: 260px;
+  width: 260px;
+  background-image: url(four\ column\ ratchets.jpg);
+  background-size: cover;
+}
+
+.bitumen-product {
+  height: 260px;
+  width: 260px;
+  background-image: url(Four\ column\ bitumen.jpg);
+  background-size: cover;
+}
+
+.hardware {
+  height: 260px;
+  width: 260px;
+  background-image: url(Four\ column\ HARDWARE.jpg);
+  background-size: cover;
+}
+
+.rope {
+  height: 260px;
+  width: 260px;
+  background-image: url(Four\ Column\ Rope.jpg);
+  background-size: cover;
+}
+
+.name {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 64px;
+  margin-bottom: 25px;
+}
+
+.name.pn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #00183b;
+}
+
+/* more from us start from here */
+
+.mfu {
+  margin-left: 85px;
+  font-size: 24px;
+  color: #00183b;
+  font-weight: 400;
+}
+
+.morefromus {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 10px;
+}
+
+.diva {
+  height: 250px;
+  width: 570px;
+  background-image: url(Store\ Merchandising.jpg);
+  background-size: cover;
+  /* margin-bottom: 50px; */
+  margin-right: 10px;
+}
+
+.divb {
+  height: 250px;
+  width: 570px;
+  background-image: url(stock\ management.jpg);
+  background-size: cover;
+  /* margin-bottom: 50px; */
+  margin-left: 10px;
+}
+
+/* text  */
+
+.morefromus1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 64px;
+  margin-right: 64px;
+  /* margin-top: 10px; */
+}
+
+.divc {
+  height: 125px;
+  width: 570px;
+  background-color: #f2f2f2;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  align-items: center;
+  color: #00183b;
+  line-height: -3px;
+  padding-top: 20px;
+}
+
+.divd {
+  height: 125px;
+  width: 570px;
+  background-color: #f2f2f2;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  align-items: center;
+  color: #00183b;
+  padding-top: 20px;
+}
+.divc h3 {
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.divd h3 {
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.divc p {
+  line-height: -3px;
+  padding-left: 10px;
+}
+
+.divd p {
+  line-height: -3px;
+  padding-left: 10px;
+}
+
+.h2mahesh {
+  margin-left: 85px;
+  font-size: 24px;
+  color: #00183b;
+  font-weight: 400;
+}
+
+.aboutus {
+  align-items: center;
+  background-color: white;
+  margin-left: 64px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.aboutus p {
+  margin-top: 15px;
+  color: #00183b;
+  /* margin-left: 64px; */
+  padding-right: 64px;
+}
+
+.aboutus .btn {
+  background-color: #f3d03e;
+  color: #000000;
+  height: 36px;
+
+  /* width: 150px; */
+
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 15px;
+  align-items: center;
+}
+span p {
+  display: inline;
+  margin-top: 15px;
+}
+
+/* WHAT PEOPLE ARE SAYING START FROM HERE  */
+
+.woas {
+  margin-left: 85px;
+  font-size: 24px;
+  color: #00183b;
+  font-weight: 400;
+}
+
+.whatotheraresaying {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 10px;
+  /* padding: 15px; */
+}
+
+.diva1 {
+  height: 250px;
+  width: 520px;
+  background-image: url(CIVILS\ &\ LINTELS.PNG);
+  background-size: cover;
+  /* margin-bottom: 50px; */
+  margin-right: 20px;
+}
+
+.divb1 {
+  height: 250px;
+  width: 520px;
+  background-image: url(ACTION\ HANDLING.PNG);
+  background-size: cover;
+  /* margin-bottom: 50px; */
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.divc1 {
+  height: 250px;
+  width: 520px;
+  background-image: url(RHINO\ DISTRIBUTION.PNG);
+  background-size: cover;
+  /* margin-bottom: 50px; */
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.divd1 {
+  height: 250px;
+  width: 520px;
+  background-image: url(TRAVIS\ PERKINS.PNG);
+  background-size: cover;
+  /* margin-bottom: 50px; */
+  margin-left: 10px;
+}
+
+/* text  */
+.whatotheraresaying1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 64px;
+  margin-right: 64px;
+  /* padding: 15px; */
+  /* margin-top: 10px; */
+}
+
+.divj1 {
+  height: 350px;
+  width: 520px;
+  background-color: #f2f2f2;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  align-items: center;
+  color: #00183b;
+  line-height: -3px;
+  padding-top: 20px;
+}
+
+.divk1 {
+  height: 350px;
+  width: 520px;
+  background-color: #f2f2f2;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  align-items: center;
+  color: #00183b;
+  padding-top: 20px;
+}
+
+.divl1 {
+  height: 350px;
+  width: 520px;
+  background-color: #f2f2f2;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  align-items: center;
+  color: #00183b;
+  padding-top: 20px;
+}
+
+.divm1 {
+  height: 350px;
+  width: 520px;
+  background-color: #f2f2f2;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  align-items: center;
+  color: #00183b;
+  padding-top: 20px;
+}
+
+.divj1 h3 {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+.divk1 h3 {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.divl1 h3 {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.divm1 h3 {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.divj1 p {
+  color: #00183b;
+  font-size: 1rem;
+  line-height: -3px;
+  padding-left: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+.divk1 p {
+  color: #00183b;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: -3px;
+  padding-left: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+.divl1 p {
+  color: #00183b;
+  font-size: 1rem;
+  line-height: -3px;
+  padding-left: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+.divm1 p {
+  color: #00183b;
+  font-size: 1rem;
+  line-height: -3px;
+  padding-left: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+/* latest news  */
+
+.ln {
+  margin-left: 85px;
+  font-size: 24px;
+  color: #00183b;
+  font-weight: 400;
+}
+
+.latestnews {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 10px;
+  /* padding: 15px; */
+}
+
+.latestnews1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.divaa {
+  height: 130px;
+  width: 520px;
+  background-image: url(safetools.jpg);
+  background-size: cover;
+  /* margin-bottom: 50px; */
+  margin-right: 20px;
+}
+
+.divbb {
+  height: 130px;
+  width: 520px;
+  background-image: url(prosolvenews.jpg);
+  background-size: cover;
+  /* margin-bottom: 50px; */
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.divcc {
+  height: 130px;
+  width: 520px;
+  background-image: url(Web\ Article\ Solar.jpg);
+  background-size: cover;
+  /* margin-bottom: 50px; */
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.whatotheraresaying1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 64px;
+  margin-right: 64px;
+  /* padding: 15px; */
+  /* margin-top: 10px; */
+}
+
+.divjj {
+  height: 130px;
+  width: 520px;
+  /* background-color: #f2f2f2; */
+  margin-bottom: 50px;
+  margin-right: 20px;
+  align-items: center;
+  color: #00183b;
+  line-height: -3px;
+  padding-top: 20px;
+}
+
+.divkk {
+  height: 130px;
+  width: 520px;
+  /* background-color: #f2f2f2; */
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  align-items: center;
+  color: #00183b;
+  padding-top: 20px;
+}
+
+.divll {
+  height: 130px;
+  width: 520px;
+  /* background-color: #f2f2f2; */
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  align-items: center;
+  color: #00183b;
+  padding-top: 20px;
+}
+
+.divjj h3 {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+.divkk h3 {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.divll h3 {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.divjj p {
+  color: #00183b;
+  font-size: 1rem;
+  line-height: -3px;
+  padding-left: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+.divkk p {
+  color: #00183b;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: -3px;
+  padding-left: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+.divll p {
+  color: #00183b;
+  font-size: 1rem;
+  line-height: -3px;
+  padding-left: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+/* banner  */
+
+.banner {
+  margin-left: 64px;
+  margin-right: 84px;
+  margin-top: 50px;
+
+  margin-bottom: 25px;
+}
+
+/* banner end is here  */
+
+.signup {
+  height: 100px;
+  background-color: #f3d03e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.signup-headline {
+  color: #000000;
+  font-size: 1.3rem;
+  margin-left: 84px;
+}
+
+.signup2 {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 2px;
+}
+.email {
+  height: 30px;
+  width: 260px;
+  padding: 5px;
+  color: #000000;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: #f3d03e;
+  outline: none;
+}
+
+.s-button {
+  background-color: #f3d03e;
+  border: none;
+  padding-left: 30px;
+  border-left: 1px solid #ffffff;
+  height: 36px;
+  font-size: 0.8rem;
+}
+
+.email::placeholder {
+  color: #000000;
+}
+input[type="text"] {
+  border: none;
+  outline: none;
+}
+
+/* footer navigation  */
+.foot-panel {
+  height: 200px;
+  color: #000000;
+  background-color: #ffffff;
+  display: flex;
+  margin-left: 64px;
+  margin-right: 150px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+ul a {
+  display: block;
+  font-size: 0.8rem;
+  padding-top: 12px;
+}
+ul h3 {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.footer-panel3 {
+  height: 55px;
+  display: flex;
+  margin-left: 75px;
+  margin-right: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icon img {
+  height: 25px;
+  width: 25px;
+}
+
+.footer-panel4 {
+  height: 75px;
+  background-color: #00183b;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  border-bottom: 1px solid #f3d03e;
+}
+
+.footer-panel4 p {
+  color: white;
+  margin-left: 75px;
+}
+
+.footer-panel4 p a {
+  color: #f3d03e;
+}
+
+.accepted {
+  margin-right: 150px;
+  padding-left: 75px;
+}
+
+.rating i {
+  color: #04da8d;
+}
+.social-icon img {
+  padding-right: 15px;
+}
+.social-icon p {
+  font-size: 1rem;
+  display: inline-block;
+  /* margin-bottom: 15px; */
+  margin-right: 15px;
+  align-items: center;
+}
+
+/* PROSOLVE HOME PAGE CLONE IS RAEDY   */
